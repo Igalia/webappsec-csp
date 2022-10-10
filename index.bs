@@ -1220,7 +1220,7 @@ spec: WebRTC; urlPrefix: https://www.w3.org/TR/webrtc/
                 [[#effective-directive-for-inline-check]] on |type|.
 
             3.  Otherwise, let |violation| be the result of executing
-                [[#create-violation-for-global]] on the <a>current settings
+                [[#create-violation-for-global]] on the <a>current principal settings
                 object</a>'s <a for="environment settings object">global object</a>, |policy|,
                 and |directive-name|.
 
